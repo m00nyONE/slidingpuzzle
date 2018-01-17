@@ -30,7 +30,6 @@ function swap(clicked)
     var ef;
     if(row+1 < Board.children.length)
     {
-        console.log(row+1+" ||| "+ Board.children.length);
         if(Board.children[row+1].children[id].innerHTML == "EMPTY" )
         {
             ef=Board.children[row+1].children[id];
