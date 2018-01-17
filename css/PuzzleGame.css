@@ -1,0 +1,53 @@
+.field
+{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: coral;
+    border-bottom-width: 2.5px;
+    border-bottom-color: black;
+    border-right-width: 2.5px;
+    border-right-color: black;
+
+    background-color: orange;
+    width: 80px;
+    height: 80px;
+    margin: 4px;
+    display: inline-block;
+    text-align: center;
+}
+#PuzzleGame
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#shuffle_button
+{
+    border-radius: 25px;
+    border-style: solid;
+    background-color: orange;
+    border-width: 2.5px;
+    border-color: black;
+}
+#Board
+{
+    border: solid 1px;
+    display: inline-block;
+}
+body
+{
+    font-size: 125%;
+    background-color: grey;
+}
+.emptyfield
+{
+    border: none;
+    background-color: saddlebrown;
+    width: 80px;
+    height: 80px;
+    margin: 4px;
+    display: inline-block;
+    text-align: center ;
+}
